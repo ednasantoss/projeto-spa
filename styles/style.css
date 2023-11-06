@@ -1,0 +1,192 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1597E5;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #69DADB;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #69DADB;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #000000;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #193498;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #1597E5;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin: 1em;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #1597E5;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.25;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #69DADB;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #69DADB;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #193498;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #193498;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: gray;
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #193498;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: gray;
+  background-color: #000000;
+  border-color: #1597E5;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #69DADB;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #193498, #1597E5, #69DADB, #193498);
+}
+footer i {
+  color: red;
+}
+
+#footer-imagem {
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+#footer-imagem .imagem-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+#footer-imagem .footer-imagem-descricao {
+  width: 40%;
+  line-height: 5rem;
+  border-left: 6px solid #69DADB;
+}
+#footer-imagem .footer-imagem-descricao h3 {
+  color: #1597E5;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#footer-imagem .footer-imagem-descricao h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+#footer-imagem .footer-imagem-descricao p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+#footer-imagem .footer-imagem-descricao h3, #footer-imagem .footer-imagem-descricao h4, #footer-imagem .footer-imagem-descricao p {
+  padding-left: 1rem;
+}/*# sourceMappingURL=style.css.map */
